@@ -1,0 +1,23 @@
+{
+    "name": "dekalee/redis-swarrot",
+    "description": "A redis adaptor for the swarrot lib",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Nicolas Thal",
+            "email": "nico.th4l@gmail.com"
+        }
+    ],
+    "require": {
+        "swarrot/swarrot": "~2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dekalee\\RedisSwarrot\\": "src/RedisSwarrot"
+        }
+    }
+}
